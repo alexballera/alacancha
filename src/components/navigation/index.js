@@ -34,7 +34,7 @@ const NavItems = {
   id: {
     home: 'home',
     id1: id + '-1',
-    id2: id + '2',
+    id2: id + '-2',
     id3: id + '3',
     legal: id + '-legal',
     nf: 'not-found'

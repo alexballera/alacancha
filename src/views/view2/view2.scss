@@ -1,25 +1,5 @@
-#view2 {
-    padding: 1rem;
-    position: relative;
-
-    h2.handlee-fonts {
-        font-size: 3rem;
-        padding-bottom: 1rem;
-        @media #{$medium-and-up} {
-            font-size: 5rem;
-        }
-    }
-    h3.yellowtail-fonts {
-        font-size: 2.25rem;
-        margin: 1rem 0;
-        @media #{$medium-and-up} {
-            font-size: 3rem;
-        }
-    }
-
-    .images-container {
-        background-color: $white;
-        box-sizing: border-box;
-        padding: 1rem;
-    }
+.view-2 {
+  h1 {
+    color: $primary-color;
+  }
 }
