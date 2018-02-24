@@ -7,13 +7,13 @@ import {NavItems} from '../navigation'
 
 const elem = yo`
 <div>
-  <div class="navbar-fixed">
-    <nav class="navbar-top">
-      <div class="nav-wrapper">
-        <a href=${NavItems.links.home} class="brand-logo">
-          <img src="images/logo.png" alt="" class="header__image">
+  <div className="navbar-fixed">
+    <nav className="navbar-top">
+      <div className="nav-wrapper">
+        <a href=${NavItems.links.home} className="brand-logo">
+          <img src="images/logo.png" alt="" className="header__image">
         </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
         ${Desktop}
       </div>
     </nav>
