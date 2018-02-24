@@ -1,7 +1,6 @@
 'use strict'
 import yo from 'yo-yo'
 import {NavItems} from '../../components/navigation'
-import {backgroundImageCatalogo} from '../../components/background-images'
 import disenos from './diseno.js'
 
 const elem = yo`
@@ -11,7 +10,6 @@ const elem = yo`
     <div class="divider"></div>
       ${disenos.diseno1}
     <div class="divider"></div>
-    ${backgroundImageCatalogo}
   </div>
 </section>
 `

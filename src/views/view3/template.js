@@ -1,7 +1,6 @@
 'use strict'
 import yo from 'yo-yo'
 import {NavItems} from '../../components/navigation'
-import {backgroundImageContacto} from '../../components/background-images'
 
 const elem = yo`
 <section id="seccion-${NavItems.id.id3}">
@@ -57,7 +56,6 @@ const elem = yo`
       </iframe>
     </div>
     </div>
-    ${backgroundImageContacto}
   </div>
 </section>
 `

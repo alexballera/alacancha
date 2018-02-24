@@ -1,7 +1,7 @@
 'use strict'
 
 const home = document.createElement('div')
-home.setAttribute('id', 'home')
+home.setAttribute('class', 'home')
 
 const createHome = () => {
   const main = document.getElementById('main')
