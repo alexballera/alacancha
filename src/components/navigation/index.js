@@ -16,18 +16,18 @@ const id = 'view'
 
 const NavItems = {
   items: {
-    home: 'Inicio',
-    item1: 'Quienes Somos',
-    item2: 'Diseños',
-    item3: 'Contacto',
+    home: 'Home',
+    item1: 'Vista 1',
+    item2: 'Vista 2',
+    item3: 'Vista 3',
     legal: 'Legal',
     nf: 'No Encontrado'
   },
   title: {
-    home: 'Nacha Maillots',
-    view1: 'Quienes Somos',
-    view2: 'Diseños',
-    view3: 'Contacto',
+    home: 'Home',
+    view1: 'Vista 1',
+    view2: 'Vista 2',
+    view3: 'Vista 3',
     legal: 'Legal',
     nf: 'No Encontrado'
   },
@@ -41,9 +41,9 @@ const NavItems = {
   },
   links: {
     home: baseUri,
-    link1: baseUri + 'quienes-somos',
-    link2: baseUri + 'disenos',
-    link3: baseUri + 'contacto',
+    link1: baseUri + 'vista-uno',
+    link2: baseUri + 'vista-dos',
+    link3: baseUri + 'vista-tres',
     legal: baseUri + 'legal',
     nf: '*'
   }
