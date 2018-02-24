@@ -1,19 +1,5 @@
-#seccion-view1 {
-    position: relative;
-    box-sizing: border-box;
-
-    .valign-wrapper {
-        height: 770px;
-    }
-    h2 {
-        font-size: 1.5rem;
-        margin: 1rem 0;
-        @media #{$medium-and-up} {
-            font-size: 3rem;
-        }
-    }
-    p {
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-    }
+.seccion-view1 {
+  h1 {
+    color: $primary-color;
+  }
 }

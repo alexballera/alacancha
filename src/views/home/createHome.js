@@ -1,7 +1,12 @@
 'use strict'
+import {setAttributes} from '../../scripts/helpers/setAttributes.js'
 
 const home = document.createElement('div')
-home.setAttribute('class', 'home')
+
+setAttributes(home, {
+  'class': 'home',
+  'id': 'home'
+})
 
 const createHome = () => {
   const main = document.getElementById('main')
