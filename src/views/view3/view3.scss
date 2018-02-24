@@ -1,0 +1,19 @@
+#view3 {
+    box-sizing: border-box;
+    padding: 1rem;
+    position: relative;
+    .row {
+        margin: 0;
+    }
+    h3 {
+        font-size: 2.25rem;
+        margin: 1rem 0;
+        padding: 0;
+        @media #{$medium-and-up} {
+            font-size: 3rem;
+        }
+    }
+    address {
+        margin-bottom: 1rem;
+    }
+}
