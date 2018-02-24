@@ -12,7 +12,7 @@ const elem = yo`
         </picture>
       </div>
       <div class="col l6 offset-l2 s12">
-        <h2 class="yellowtail-fonts">Maillots Que Impresionan!</h2>
+        <h2>Footer</h2>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ const elem = yo`
     <div class="container">
       <div class="row">
         <div class="col s12 l4">
-          © 2017 Copyright Nacha Maillots
+          © 2017 Copyright Alex Ballera
         </div>
         <div class="col s12 l8 right-align">
           <a class="waves-effect waves-custom" href=${NavItems.links.legal} >${NavItems.items.legal}</a>
