@@ -7,7 +7,7 @@ import babelify from 'babelify'
 import rename from 'gulp-rename'
 
 gulp.task('build:scripts', () => {
-  return browserify('./src/index.js')
+  return browserify('./src/scripts/index.js')
     .transform(babelify)
     .bundle()
     .on('error', (err) => {

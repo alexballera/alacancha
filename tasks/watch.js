@@ -7,7 +7,7 @@ gulp.task('watch', () => {
   gulp.watch('./src/scripts/lib/*.*.js', ['copy'])
   gulp.watch(
     [
-      './src/index.js',
+      './src/scripts/index.js',
       './src/components/**/*.js',
       './src/views/**/*.js'
     ], ['build:scripts'])

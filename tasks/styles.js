@@ -33,7 +33,7 @@ gulp.task('styles', () => {
   var reloadOptions = {
     stream: true
   }
-  return gulp.src('./src/index.scss')
+  return gulp.src('./src/styles/scss/index.scss')
     .pipe(sassGlob())
     .pipe(sassLint())
     .pipe(sassLint.format())
@@ -46,5 +46,6 @@ gulp.task('styles', () => {
     .pipe(cssnano())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./public/styles'))
+    .pipe(gulp.dest('./src/styles'))
     .pipe(browserSync.reload(reloadOptions))
 })

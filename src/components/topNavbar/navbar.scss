@@ -32,13 +32,18 @@
   &-desktop {
     line-height: $navbar-height;
 
-    li a {
-      color: $navbar-font-color;
-      text-transform: uppercase;
+    li {
+      a {
+        color: $navbar-font-color;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $white;
+        }
+      }
 
       &:hover {
         background-color: $primary-hover;
-        color: $white;
       }
     }
   }
