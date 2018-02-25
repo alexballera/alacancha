@@ -10,7 +10,7 @@ import showLegal from './showLegal'
 import notFound from './notFound'
 import page from 'page'
 
-const baseUri = '/'
+const baseUri = '/alacancha/'
 
 const id = 'view'
 
