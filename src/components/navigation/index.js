@@ -16,7 +16,7 @@ const id = 'view'
 
 const NavItems = {
   items: {
-    home: 'Home',
+    home: 'Inicio',
     item1: 'Vista 1',
     item2: 'Vista 2',
     item3: 'Vista 3',
@@ -24,7 +24,7 @@ const NavItems = {
     nf: 'No Encontrado'
   },
   title: {
-    home: 'Home',
+    home: 'A La Cancha',
     view1: 'Vista 1',
     view2: 'Vista 2',
     view3: 'Vista 3',
