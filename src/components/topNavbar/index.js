@@ -11,7 +11,7 @@ const elem = yo`
     <nav className="navbar-top">
       <div className="nav-wrapper">
         <a href=${NavItems.links.home} className="brand-logo">
-          <img src="images/logo.png" alt="" className="header__image">
+          <img src="images/logo-menu.png" alt="" className="header__image">
         </a>
         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
         ${Desktop}

@@ -4,7 +4,7 @@
 
   .nav-wrapper {
     @media #{$medium-and-down} {
-      background: red;
+      background-color: $background-color-sidenavbar;
       position: inherit;
     }
   }
@@ -27,17 +27,19 @@
   }
 
   .brand-logo {
+    height: $navbar-height;
+    padding: .5rem;
     @media #{$medium-and-down} {
       bottom: 0;
+      height: initial;
       left: initial;
       transform: none;
     }
 
     img {
-      height: $navbar-height;
+      height: 100%;
 
       @media (max-width: 992px) {
-        height: 100%;
         width: 100%;
       }
 
