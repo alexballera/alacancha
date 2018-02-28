@@ -13,7 +13,10 @@ const elem = yo`
         <a href=${NavItems.links.home} className="brand-logo">
           <img src="images/logo-menu.png" alt="" className="header__image">
         </a>
-        <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-demo" className="button-collapse valign-wrapper">
+          <i className="material-icons">menu</i>
+          <p>Menú</p>
+        </a>
         ${Desktop}
       </div>
     </nav>

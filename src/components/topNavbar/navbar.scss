@@ -4,7 +4,9 @@
 
   .nav-wrapper {
     @media #{$medium-and-down} {
+      align-items: center;
       background-color: $background-color-sidenavbar;
+      display: flex;
       position: inherit;
     }
   }
@@ -14,12 +16,20 @@
   }
 
   .button-collapse {
-    @media #{$medium-and-down} {
-      top: 35%;
+    flex-direction: column;
+
+    p {
+      color: $white;
+      margin-top: .3rem;
     }
 
     .material-icons {
-      color: $primary-color;
+      border: 1px solid $white;
+      border-radius: 50%;
+      color: $white;
+      height: initial;
+      line-height: initial;
+      padding: .2rem;
       &:hover {
         color: $color-hover;
       }
@@ -70,7 +80,11 @@
 }
 
 .side-nav {
-  li > a> .material-icons {
-    float: right !important;
+  li {
+    width: 100%;
+
+    & > a> .material-icons {
+      float: right !important;
+    }
   }
 }
