@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 import {NavItems} from '../../navigation'
 
 const elem = yo`
-<div className="page-footer">
+<div className="page-footer hide-on-med-and-down">
   <div className="footer-content">
     <div className="container">
       <div className="row valign-wrapper">

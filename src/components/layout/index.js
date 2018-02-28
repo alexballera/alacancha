@@ -1,10 +1,11 @@
 'use strict'
-import createNavbar from './createNavbar'
+
+import createTopNavbar from './createTopNavbar'
 import createMain from './createMain'
 import createFooter from './createFooter'
 
 export default () => {
-  createNavbar()
+  createTopNavbar()
   createMain()
   createFooter()
 }
