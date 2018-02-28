@@ -4,7 +4,8 @@ import {setAttributes} from '../../scripts/helpers/setAttributes.js'
 
 const navbar = document.createElement('header')
 setAttributes(navbar, {
-  'id': 'navbar-top'
+  'id': 'navbar-top',
+  'class': 'top-navbar'
 })
 
 export default () => {
