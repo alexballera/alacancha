@@ -1,5 +1,8 @@
 .home {
-  h1 {
-    color: $primary-color;
+  .slider {
+    @media #{$medium-and-down} {
+      position: absolute;
+      top: 15%;
+    }
   }
 }

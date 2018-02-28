@@ -1,10 +1,8 @@
 body {
-  // @include background('../images/bg-main.png', $white);
-  background-attachment: fixed;
-  background-image: url('../images/bg-main.png');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @media #{$medium-and-down} {
+    @include background('../images/bg-main.png', $white);
+    background-attachment: fixed;
+  }
   font-size: 16px;
 }
 

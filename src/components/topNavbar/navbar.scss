@@ -28,9 +28,13 @@
 
     .button-collapse {
       flex-direction: column;
+      height: initial;
+      line-height: initial;
 
       p {
         color: $white;
+        height: initial;
+        line-height: initial;
         margin-top: .3rem;
       }
 
