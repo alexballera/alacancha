@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Football Font';
+  src: url('../fonts/football2018/Dusha-FIFA-World-Cup-2018.ttf');
+}
+
 body {
   @include background('../images/bg-main.png', $white);
   background-attachment: fixed;
   @media #{$medium-and-down} {
   }
+  font-family: 'Football Font';
   font-size: 16px;
 }
 
