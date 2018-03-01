@@ -1,7 +1,7 @@
 body {
+  @include background('../images/bg-main.png', $white);
+  background-attachment: fixed;
   @media #{$medium-and-down} {
-    @include background('../images/bg-main.png', $white);
-    background-attachment: fixed;
   }
   font-size: 16px;
 }

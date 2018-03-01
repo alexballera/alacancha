@@ -30,6 +30,7 @@
       flex-direction: column;
       height: initial;
       line-height: initial;
+      margin: 0 5px;
 
       p {
         color: $white;
@@ -54,7 +55,7 @@
 
     .brand-logo {
       height: $navbar-height;
-      padding: .5rem;
+      padding: 5px;
       @media #{$medium-and-down} {
         bottom: 0;
         height: initial;

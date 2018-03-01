@@ -2,7 +2,39 @@
   .slider {
     @media #{$medium-and-down} {
       position: absolute;
-      top: 15%;
+      top: 20%;
+    }
+
+    .slides {
+      background-color: transparent;
+    }
+
+    .caption {
+      height: 100%;
+      top: 0 !important;
+
+      img {
+        @media #{$medium-and-down} {
+          width: 50%;
+        }
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 17%;
+      }
+
+      h2 {
+        @media #{$medium-and-down} {
+          bottom: 10%;
+        }
+        bottom: 2%;
+        display: block;
+        font-size: 1.75rem;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+      }
     }
   }
 }
