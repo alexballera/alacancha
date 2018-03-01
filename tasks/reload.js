@@ -7,7 +7,8 @@ gulp.watch([
   './src/components/**/*.scss',
   './src/views/**/*.scss',
   './src/index.scss',
-  './src/index.js',
+  './src/scripts/index.js',
+  './src/scripts/Webfont.js',
   './src/scripts/lib/*.js',
   './src/components/**/*.js',
   './src/views/**/*.js'

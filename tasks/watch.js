@@ -8,6 +8,7 @@ gulp.task('watch', () => {
   gulp.watch(
     [
       './src/scripts/index.js',
+      './src/scripts/Webfont.js',
       './src/components/**/*.js',
       './src/views/**/*.js'
     ], ['build:scripts'])

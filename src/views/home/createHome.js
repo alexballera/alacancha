@@ -13,4 +13,6 @@ const createHome = () => {
   main.appendChild(home)
 }
 
-export {createHome, home}
+const body = document.getElementsByTagName('body')[0]
+
+export {createHome, home, body}

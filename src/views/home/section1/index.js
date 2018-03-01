@@ -1,6 +1,6 @@
 'use strict'
 import yo from 'yo-yo'
-import {home} from '../createHome'
+import {home, body} from '../createHome'
 
 const Section1 = yo`
 <div class="slider">
@@ -24,4 +24,5 @@ const Section1 = yo`
 `
 export default () => {
   home.appendChild(Section1)
+  body.style.backgroundImage = 'url(../images/bg-main.png)'
 }

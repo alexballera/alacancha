@@ -7,7 +7,7 @@ import WebFont from 'webfontloader'
 export default () => {
   WebFont.load({
     google: {
-      families: ['Material Icons', 'Handlee', 'Yellowtail']
+      families: ['Material Icons']
     }
   })
 }

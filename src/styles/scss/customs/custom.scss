@@ -4,10 +4,9 @@
 }
 
 body {
-  @include background('../images/bg-main.png', $white);
   background-attachment: fixed;
-  @media #{$medium-and-down} {
-  }
+  background-position: 50%;
+  background-size: cover;
   font-family: 'Football Font';
   font-size: 16px;
 }
