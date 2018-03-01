@@ -53,7 +53,8 @@
       }
     }
 
-    .brand-logo {
+    .brand-logo,
+    .brand-logo-top {
       height: $navbar-height;
       padding: 5px;
       @media #{$medium-and-down} {
@@ -64,16 +65,22 @@
       }
 
       img {
-        height: 100%;
-  
+        
         @media (max-width: 992px) {
           width: 100%;
         }
 
         @media #{$large-and-up} {
+          height: 100%;
           margin-left: 2rem;
         }
       }
+    }
+
+    .brand-logo-top {
+      padding-top: 5px;
+      position: absolute;
+      top: 0;
     }
 
     &-desktop {
