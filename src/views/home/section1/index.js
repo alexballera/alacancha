@@ -1,6 +1,6 @@
 'use strict'
 import yo from 'yo-yo'
-import {home, body} from '../createHome'
+import {home} from '../createHome'
 import {path} from '../../../components/data'
 
 const Section1 = yo`
@@ -25,8 +25,4 @@ const Section1 = yo`
 `
 export default () => {
   home.appendChild(Section1)
-  body.style.backgroundImage = `url(..${path}images/bg-main.png)`
-  document.getElementById('brand-logo-top').style.display = 'none'
-  document.getElementById('informacion-logo-img').style.display = 'none'
-  document.getElementById('brand-logo-img').style.display = 'block'
 }
