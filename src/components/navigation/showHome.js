@@ -16,6 +16,8 @@ const showHome = () => {
   $app.find('#informacion-logo-img').hide()
   $app.find('#brand-logo-img').show()
   $app.find('#navbar-top').show()
+  $app.find('#footer').hide()
+
   body.style.backgroundImage = `url(..${path}images/bg-main.png)`
 }
 module.exports = showHome
