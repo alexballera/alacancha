@@ -49,6 +49,10 @@
       input {
         color: $white;
         margin: 0;
+
+        &:-webkit-autofill {
+          background-color: transparent;
+        }
       }
 
       label {
