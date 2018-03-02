@@ -21,7 +21,7 @@
       order: 2;
     }
     @media #{$medium-and-up} {
-      padding: 2rem !important;
+      padding: 1rem 3rem !important;
     }
 
     &-container {
@@ -32,6 +32,9 @@
 
     &-logo {
       img {
+        @media #{$medium-and-up} {
+          width: 35%;
+        }
         width: 50%;
       }
     }
@@ -39,7 +42,7 @@
     &-text {
       p {
         color: $white;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
       }
@@ -69,7 +72,7 @@
         margin-bottom: .5rem;
         margin-top: .5rem;
       }
-      margin-top: 1rem;
+      margin-top: .5rem;
     }
   }
 
