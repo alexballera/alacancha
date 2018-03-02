@@ -10,10 +10,13 @@ const showLogin = () => {
   const SectionID = '#seccion-' + `${NavItems.id.id3}`
   const liID = '#li-' + `${NavItems.id.id3}`
 
+  document.title = `${NavItems.title.view3}`
+
   $app.find(SectionID).show('fade', 1000)
   $app.find(liID).addClass('activado')
-  document.title = `${NavItems.title.view3}`
   $app.find('#navbar-top').hide()
+  $app.find('#footer').hide()
+
   body.style.backgroundImage = `url(..${path}images/bg-login.png)`
 }
 
