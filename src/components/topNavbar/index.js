@@ -11,11 +11,11 @@ const elem = yo`
     <nav className="navbar-top">
       <div className="nav-wrapper">
         <a href=${NavItems.links.home} className="brand-logo-top" id="brand-logo-top">
-          <img src="images/usuario-logo.png" alt="" className="">
+          <img src="images/logo-usuario.png" alt="" className="">
         </a>
         <a href=${NavItems.links.home} className="brand-logo">
           <img src="images/logo-menu.png" alt="" className="header__image" id="brand-logo-img">
-          <img src="images/informacion-logo.png" alt="" className="header__image" id="informacion-logo-img">
+          <img src="images/logo-informacion.png" alt="" className="header__image" id="informacion-logo-img">
         </a>
         <a href="#" data-activates="mobile-demo" className="button-collapse valign-wrapper">
           <i className="material-icons">menu</i>
