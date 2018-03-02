@@ -22,10 +22,7 @@
       }
     }
 
-    .material-icons {
-      float: right !important;
-    }
-
+    
     .button-collapse {
       flex-direction: column;
       height: initial;
@@ -43,12 +40,15 @@
         border: 1px solid $white;
         border-radius: 50%;
         color: $white;
-        height: initial;
-        line-height: initial;
+        height: 40px;
+        line-height: 32px;
         padding: .2rem;
+        text-align: center;
+        width: 40px;
 
         &:hover {
-          color: $color-hover;
+          border-color: $primary-hover;
+          color: $primary-hover;
         }
       }
     }
