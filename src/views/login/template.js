@@ -12,11 +12,8 @@ const elem = yo`
             <img src="images/logo-nestle.png" alt="">
           </picture>
           ${Form}
-          <div className="col s12 m6 ${NavItems.id.id3}-form-links">
+          <div className="col s12 ${NavItems.id.id3}-form-links">
             <a href="#">Olvidó la contraseña</a>
-          </div>
-          <div className="col s12 m6 ${NavItems.id.id3}-form-links">
-            <a href="#">Registrate</a>
           </div>
         </div>
         <div className="row ${NavItems.id.id3}-form-text">
