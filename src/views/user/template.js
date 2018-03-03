@@ -5,7 +5,7 @@ import {NavItems} from '../../components/navigation'
 const elem = yo`
 <section id="seccion-${NavItems.id.id2}" className="container grey lighten-5">
   <div id="${NavItems.id.id2}" className="${NavItems.id.id2}">
-    <h1>Estoy en Vista 2</h1>
+    <h1>Estoy en Usuario</h1>
   </div>
 </section>
 `

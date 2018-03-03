@@ -3,7 +3,7 @@ import {$app} from '../layout/app'
 import hideViews from './hideViews'
 import {NavItems} from '../navigation'
 
-const showView2 = () => {
+const showUser = () => {
   hideViews()
   const SectionID = '#seccion-' + `${NavItems.id.id2}`
   const liID = '#li-' + `${NavItems.id.id2}`
@@ -13,4 +13,4 @@ const showView2 = () => {
   document.title = `${NavItems.title.view2}`
 }
 
-module.exports = showView2
+module.exports = showUser
