@@ -1,12 +1,13 @@
 .view-user {
-  h1 {
-    color: $primary-color;
-  }
-
   &-bg-logo {
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    width: 30%;
+    img {
+      @media #{$medium-and-down} {
+        width: 30%;
+      }
+      bottom: 0;
+      position: absolute;
+      right: 0;
+      width: 20%;
+    }
   }
 }

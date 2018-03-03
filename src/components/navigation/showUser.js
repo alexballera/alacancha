@@ -22,13 +22,18 @@ const showUser = () => {
   $app.find('#navbar-top').show()
   $app.find('#footer').hide()
 
+  function showInformationLogo () {
+    $app.find('#informacion-logo-img').show()
+    $app.find('#brand-logo-img').hide()
+  }
+  showInformationLogo()
+
   var screenTest = e => {
     if (e.matches) {
       $app.find('#informacion-logo-img').hide()
       $app.find('#brand-logo-img').show()
     } else {
-      $app.find('#informacion-logo-img').show()
-      $app.find('#brand-logo-img').hide()
+      showInformationLogo()
     }
   }
 
