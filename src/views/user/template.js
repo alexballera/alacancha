@@ -7,6 +7,7 @@ const elem = yo`
   <div id="${NavItems.id.id2}" className="${NavItems.id.id2}">
     <h1>Estoy en Usuario</h1>
   </div>
+  <img className="${NavItems.id.id2}-bg-logo" src="images/bg-usuario-logo-bottom.png" alt=""/>
 </section>
 `
 module.exports = elem
