@@ -1,3 +1,12 @@
+#seccion-view-user {
+  background-image: url('../images/bg-usuario-logo-bottom.png');
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  min-height: 340px;
+}
+
 .view-user {
   &-header {
 
@@ -21,6 +30,31 @@
   }
 
   &-contenido {
+    margin-top: 1rem !important;
+
+    &-header {
+
+      img {
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        color: $color-primary;
+        font-size: 1.2rem;
+
+        span {
+          color: $black;
+        }
+      }
+
+      p {
+        font-size: .9rem;
+      }
+    }
   }
 
   &-bg-logo {
