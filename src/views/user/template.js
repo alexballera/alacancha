@@ -5,18 +5,25 @@ import {NavItems} from '../../components/navigation'
 const elem = yo`
 <section id="seccion-${NavItems.id.id2}" className="container">
   <div id="${NavItems.id.id2}" className="${NavItems.id.id2}">
-    <div className="row">
-      <div className="col s12 m9 ${NavItems.id.id2}-contenido">
-        <header className="row valign-wrapper">
-          <picture className="col s12 m2">
+    <header className="row ${NavItems.id.id2}-header">
+      <div className="col offset-s2 s10 m9 padding-zero">
+        <div className="row valign-wrapper ${NavItems.id.id2}-header-container">
+          <picture className="col s12 m2 center">
             <img src="images/logo-nestle-negro.png" alt=""/>
           </picture>
           <div className="col s12 m10">
             <p>fabulosos premios puedes ganar acertando con tus pronósticos los partidos del mundial...</p>
           </div>
-        </header>
+        </div>
       </div>
-      <div className="col s12 m3 ${NavItems.id.id2}-aside">Texto 2</div>
+    </header>
+    <div className="row ${NavItems.id.id2}-contenido">
+      <div className="col offset-s2 s10 m9 padding-zero">
+        Texto 1
+      </div>
+      <div className="col offset-s2 s10 m3 ${NavItems.id.id2}-aside padding-zero">
+        Texto 2
+      </div>
     </div>
   </div>
   <picture className="${NavItems.id.id2}-bg-logo">

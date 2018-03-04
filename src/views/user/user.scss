@@ -1,18 +1,26 @@
 .view-user {
-  &-contenido {
-    background-color: $background-color-usuario-topnav;
-    border-radius: 0 0 10px 10px;
+  &-header {
 
-    header {
-
-      img {
-        width: 100%;
-      }
-
-      p {
-        color: $white;
-      }
+    &-container {
+      background-color: $background-color-usuario-topnav;
+      border-radius: 0 0 10px 10px;
+      flex-flow: row wrap;
+      padding: .5rem;
     }
+
+    img {
+      @media (max-width: 600px) {
+        width: 50%;
+      }
+      width: 100%;
+    }
+
+    p {
+      color: $white;
+    }
+  }
+
+  &-contenido {
   }
 
   &-bg-logo {
