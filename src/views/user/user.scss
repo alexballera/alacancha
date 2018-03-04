@@ -1,4 +1,20 @@
 .view-user {
+  &-contenido {
+    background-color: $background-color-usuario-topnav;
+    border-radius: 0 0 10px 10px;
+
+    header {
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        color: $white;
+      }
+    }
+  }
+
   &-bg-logo {
     img {
       @media #{$medium-and-down} {

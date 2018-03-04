@@ -7,11 +7,11 @@ const elem = yo`
   <div id="${NavItems.id.id2}" className="${NavItems.id.id2}">
     <div className="row">
       <div className="col s12 m9 ${NavItems.id.id2}-contenido">
-        <header className="row">
-          <picture className="col s12 m3">
+        <header className="row valign-wrapper">
+          <picture className="col s12 m2">
             <img src="images/logo-nestle-negro.png" alt=""/>
           </picture>
-          <div className="col s12 m9">
+          <div className="col s12 m10">
             <p>fabulosos premios puedes ganar acertando con tus pronósticos los partidos del mundial...</p>
           </div>
         </header>
