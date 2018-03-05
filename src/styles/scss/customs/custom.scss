@@ -5,7 +5,7 @@
 
 body {
   background-attachment: fixed;
-  background-position: 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Football Font';
@@ -74,9 +74,6 @@ a {
   width: 600px;
 }
 
-.row {
-  margin-bottom: 0;
-}
 .blue-grey.lighten-5 {
   background-color: $background-color-container !important;
 }

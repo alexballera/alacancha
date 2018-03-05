@@ -34,7 +34,24 @@ const elem = yo`
         </header>
       </div>
       <div className="col offset-s2 s10 m3 ${NavItems.id.id2}-aside padding-zero">
-        Aside
+        <div className="row">
+          <picture className="col s12 center ${NavItems.id.id2}-aside-logo padding-zero">
+            <img src="images/logo.png" alt=""/>
+          </picture>
+          <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-time">
+            <p>Quedan</p>
+            <img src="images/logo-usuario-time.png" alt=""/> <span>65:24:32</span>
+            <p>para el mundial</p>
+          </div>
+          <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
+            <p>¿Quién será el</p>
+            <p>próximo goleador?</p>
+          </div>
+          <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
+            <p>Pronostica quien</p>
+            <p>ganará el mundial</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

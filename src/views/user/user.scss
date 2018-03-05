@@ -1,10 +1,16 @@
 #seccion-view-user {
+  @media (max-width: 600px) {
+    background-size: 50%;
+  }
+  @media (min-width: 992px) {
+    min-height: 500px;
+  }
   background-image: url('../images/bg-usuario-logo-bottom.png');
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: 30%;
-  min-height: 340px;
+  min-height: 600px;
 }
 
 .view-user {
@@ -35,6 +41,9 @@
     &-header {
 
       img {
+        @media (max-width: 600px) {
+          width: 30%;
+        }
         width: 100%;
       }
 
@@ -43,8 +52,11 @@
       }
 
       h3 {
+        @media (max-width: 600px) {
+          font-size: 1.2rem;
+        }
         color: $color-primary;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
 
         span {
           color: $black;
@@ -52,20 +64,41 @@
       }
 
       p {
-        font-size: .9rem;
+        @media (max-width: 600px) {
+          font-size: .9rem;
+        }
       }
     }
   }
 
-  &-bg-logo {
-    img {
-      @media #{$medium-and-down} {
-        width: 30%;
+  &-aside {
+    &-logo {
+      img {
+        @media (max-width: 600px) {
+          width: 50%;
+        }
+        width: 100%;
       }
-      bottom: 0;
-      position: absolute;
-      right: 0;
-      width: 20%;
+    }
+
+    &-time {
+      img {
+        width: 11%;
+      }
+
+      span {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+
+    &-selection {
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }
