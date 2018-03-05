@@ -78,6 +78,32 @@ a {
   background-color: $background-color-container !important;
 }
 
+.show-small-and-down {
+  display: none;
+  @media (max-width: 600px) {
+    display: block;
+  }
+}
+.hide-small-and-up {
+  display: block;
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.show-large-and-up {
+  display: none;
+  @media #{$large-and-up} {
+    display: block;
+  }
+}
+.hide-large-and-up {
+  display: block;
+  @media #{$large-and-up} {
+    display: none;
+  }
+}
+
 .show-extra-large-and-up {
   display: none;
   @media #{$extra-large-and-up} {

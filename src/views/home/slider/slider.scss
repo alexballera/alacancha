@@ -14,21 +14,29 @@
       top: 0 !important;
 
       img {
-        @media #{$medium-and-down} {
-          width: 50%;
+        @media (min-width: 601px) {
+          height: 250px;
+          width: 250px;
+        }
+        @media (min-width: 993px) {
+          height: 300px;
+          width: 300px;
         }
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 100%;
-        width: 17%;
+        height: 150px;
+        width: 150px;
       }
 
       h2 {
-        @media #{$medium-and-down} {
-          bottom: 10%;
+        @media (min-width: 601px) {
+          font-size: 2rem;
         }
-        bottom: 2%;
+        @media (min-width: 993px) {
+          font-size: 3rem;
+        }
+        bottom: 10%;
         display: block;
         font-size: 1.75rem;
         position: absolute;
