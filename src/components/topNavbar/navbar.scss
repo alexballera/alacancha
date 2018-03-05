@@ -1,9 +1,7 @@
 .top-navbar {
   
   .navbar-fixed {
-    @media #{$medium-and-down} {
-      height: 0;
-    }
+    height: 0;
   }
 
   .navbar-top {

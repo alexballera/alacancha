@@ -20,6 +20,12 @@ h1 {
   margin: 0 !important;
 }
 
+.container {
+  @media (min-width: 993px) {
+    width: 80%;
+  }
+}
+
 .padding-zero {
   padding: 0 !important;
 }
