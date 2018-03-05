@@ -21,7 +21,6 @@ const elem = yo`
           <i className="material-icons">menu</i>
           <p>Menú</p>
         </a>
-        ${Desktop}
       </div>
     </nav>
   </div>

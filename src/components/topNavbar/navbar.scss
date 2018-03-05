@@ -7,23 +7,19 @@
   }
 
   .navbar-top {
-    @media #{$medium-and-down} {
-      height: 0;
-    }
     background-color: $background-color-topnav;
     box-shadow: none;
+    height: 0;
 
     .nav-wrapper {
-      @media #{$medium-and-down} {
-        align-items: center;
-        background-color: $background-color-sidenavbar;
-        display: flex;
-        position: inherit;
-      }
+      align-items: center;
+      background-color: $background-color-sidenavbar;
+      display: flex;
+      position: inherit;
     }
 
-    
     .button-collapse {
+      display: block !important;
       flex-direction: column;
       height: initial;
       line-height: initial;
@@ -55,25 +51,14 @@
 
     .brand-logo,
     .brand-logo-top {
-      height: $navbar-height;
+      bottom: 0;
+      height: initial;
+      left: initial;
       padding: 5px;
-      @media #{$medium-and-down} {
-        bottom: 0;
-        height: initial;
-        left: initial;
-        transform: none;
-      }
+      transform: none;
 
       img {
-        
-        @media (max-width: 992px) {
-          width: 100%;
-        }
-
-        @media #{$large-and-up} {
-          height: 100%;
-          margin-left: 2rem;
-        }
+        width: 100%;
       }
     }
 
