@@ -3,7 +3,7 @@
     background-size: 50%;
   }
   @media (min-width: 992px) {
-    min-height: 500px;
+    min-height: 700px;
   }
   background-image: url('../images/bg-usuario-logo-bottom.png');
   background-position-x: right;
@@ -96,19 +96,32 @@
     }
 
     &-selection {
+      margin-top: 1rem;
+
       p {
         font-size: 1rem;
       }
 
       .input-field {
+        margin-top: .5rem;
+
         .select-wrapper {
           background-color: $color-primary;
+          border-radius: 5px;
+          color: $white;
           padding-left: 1rem;
 
-          input.select-dropdown {
-            border-bottom: 0;
-            height: 1.5rem;
-            line-height: 1.5rem;
+          .caret {
+            color: $white;
+            right: 10px;
+          }
+
+          input {
+            &.select-dropdown {
+              border-bottom: 0;
+              height: 1.5rem;
+              line-height: 1.5rem;
+            }
           }
         }
       }
