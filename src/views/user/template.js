@@ -46,6 +46,14 @@ const elem = yo`
           <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
             <p>¿Quién será el</p>
             <p>próximo goleador?</p>
+            <div class="input-field col s12">
+              <select id="select-goleador">
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
           </div>
           <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
             <p>Pronostica quien</p>
