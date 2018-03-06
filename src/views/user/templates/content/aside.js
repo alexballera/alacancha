@@ -15,7 +15,7 @@ const Aside = yo`
   <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
     <p>¿Quién será el</p>
     <p>próximo goleador?</p>
-    <div class="input-field col s12">
+    <div class="input-field col offset-s1 s10">
       <select id="select-goleador">
         <option value="" disabled selected>Seleccionar</option>
         <option value="1">Jugador 1</option>
@@ -27,7 +27,7 @@ const Aside = yo`
   <div className="col s12 padding-zero center ${NavItems.id.id2}-aside-selection">
     <p>Pronostica quien</p>
     <p>ganará el mundial</p>
-    <div class="input-field col s12">
+    <div class="input-field col offset-s1 s10">
       <select id="select-team">
         <option value="" disabled selected>Seleccionar</option>
         <option value="1">Equipo 1</option>
