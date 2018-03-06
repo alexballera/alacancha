@@ -8,7 +8,7 @@ const contentPronostic = yo`
     <div className="col offset-s3 s2 padding-zero">Resultado</div>
     <div className="col s1 padding-zero">Puntos Obtenidos</div>
     <div className="col s1 padding-zero">
-      <img src="../../../../images/logo-usuario-time.png" alt=""/>
+      <img src="images/logo-usuario-time.png" alt=""/>
     </div>
   </div>
   <div>
