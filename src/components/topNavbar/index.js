@@ -1,6 +1,5 @@
 'use strict'
 import yo from 'yo-yo'
-import {Desktop} from './templates/desktop'
 import sideNav from './templates/sideNav'
 import JqueryOptions from './templates/jquery.options'
 import {NavItems} from '../navigation'
