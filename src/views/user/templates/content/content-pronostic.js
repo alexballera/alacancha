@@ -15,13 +15,13 @@ const contentPronostic = yo`
     <div className="content-pronostic-row grey darken-4">
       <div className="row valign-wrapper">
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/arg.png" alt=""/>
+          <img src="images/banderas/arg.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text">Argentina</div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s2 padding-zero grey-text">Islandia</div>
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/isl.png" alt=""/>
+          <img src="images/banderas/isl.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s1 padding-zero grey-text text-lighten-4">30</div>
@@ -37,13 +37,13 @@ const contentPronostic = yo`
     <div className="content-pronostic-row grey darken-4">
       <div className="row valign-wrapper">
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/arg.png" alt=""/>
+          <img src="images/banderas/arg.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text">Argentina</div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s2 padding-zero grey-text">Islandia</div>
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/isl.png" alt=""/>
+          <img src="images/banderas/isl.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s1 padding-zero grey-text text-lighten-4">30</div>
@@ -59,13 +59,13 @@ const contentPronostic = yo`
     <div className="content-pronostic-row grey darken-4">
       <div className="row valign-wrapper">
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/arg.png" alt=""/>
+          <img src="images/banderas/arg.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text">Argentina</div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s2 padding-zero grey-text">Islandia</div>
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/isl.png" alt=""/>
+          <img src="images/banderas/isl.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s1 padding-zero grey-text text-lighten-4">30</div>
@@ -81,13 +81,13 @@ const contentPronostic = yo`
     <div className="content-pronostic-row grey darken-4">
       <div className="row valign-wrapper">
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/arg.png" alt=""/>
+          <img src="images/banderas/arg.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text">Argentina</div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s2 padding-zero grey-text">Islandia</div>
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/isl.png" alt=""/>
+          <img src="images/banderas/isl.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s1 padding-zero grey-text text-lighten-4">30</div>
@@ -103,13 +103,13 @@ const contentPronostic = yo`
     <div className="content-pronostic-row grey darken-4">
       <div className="row valign-wrapper">
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/arg.png" alt=""/>
+          <img src="images/banderas/arg.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text">Argentina</div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s2 padding-zero grey-text">Islandia</div>
         <div className="col s1 padding-zero">
-          <img src="../../../../images/banderas/isl.png" alt=""/>
+          <img src="images/banderas/isl.png" alt=""/>
         </div>
         <div className="col s2 padding-zero grey-text text-lighten-4">3 - 0</div>
         <div className="col s1 padding-zero grey-text text-lighten-4">30</div>
