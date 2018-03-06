@@ -7,13 +7,13 @@ const Slider = yo`
 <div>
   <div className="margin-top"></div>
   <div className="slider">
-    <div className="slider-mobile hide-small-and-up">
+    <div id="slider-mobile" className="hide-small-and-up">
       ${sliderMobile}
     </div>
-    <div className="slider-tablet hide-on-small-and-down hide-large-and-up">
+    <div id="slider-tablet" className="hide-on-small-and-down hide-large-and-up">
       ${sliderTablet}
     </div>
-    <div className="slider-desktop hide-on-med-and-down">
+    <div id="slider-desktop" className="hide-on-med-and-down">
       ${sliderDesktop}
     </div>
   </div>

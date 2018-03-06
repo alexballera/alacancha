@@ -3,21 +3,21 @@
 export default () => {
   // Slider
 
-  $('.slider-mobile').slider({
+  $('#slider-mobile').slider({
     indicators: false,
     interval: 9000,
     transition: 600,
     height: 200
   })
   
-  $('.slider-tablet').slider({
+  $('#slider-tablet').slider({
     indicators: false,
     interval: 9000,
     transition: 600,
     height: 300
   })
 
-  $('.slider-desktop').slider({
+  $('#slider-desktop').slider({
     indicators: false,
     interval: 9000,
     transition: 600,
