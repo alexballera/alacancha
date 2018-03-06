@@ -7,11 +7,11 @@ import Aside from './content/aside'
 
 const Content = yo`
 <div className="row ${NavItems.id.id2}-content">
-  <div className="col offset-s2 s10 m9 padding-zero">
+  <div className="col offset-s2 s10 m8 padding-zero">
     ${Header}
     ${Contenido}
   </div>
-  <div className="col offset-s2 s10 m3 ${NavItems.id.id2}-aside padding-zero">
+  <div className="col offset-s2 s10 offset-m1 m3 ${NavItems.id.id2}-aside padding-zero">
     ${Aside}
   </div>
 </div>`

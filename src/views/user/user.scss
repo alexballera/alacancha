@@ -70,6 +70,46 @@
         }
       }
     }
+
+    &-content {
+      .content-navigation {
+        background-color: transparent;
+        background-image: url('../../images/bg-usuario-menu-pronostico.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+
+        .nav-wrapper {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+
+          li {
+            border-right: 1px solid;
+
+            &:last-child {
+              border-right: 0;
+            }
+          }
+
+          a {
+            box-sizing: border-box;
+            color: $navbar-font-color;
+
+            &:hover {
+              background-color: transparent;
+              border: 1px solid transparent;
+              border-bottom-color: $color-primary;
+              box-sizing: border-box;
+            }
+
+            &:visited {
+              color: $navbar-font-color;
+            }
+          }
+        }
+      }
+    }
   }
 
   &-aside {
